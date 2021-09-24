@@ -1,12 +1,16 @@
 let box = document.querySelectorAll('.box');
-console.log(box);
 
-for (let index = 0; index < box.length; index++) {
-  box[index].addEventListener('click', (event) => {
-    console.log(event.target);
+for (let index = 0; index < box.length; index += 1) {
+
+  box[index].addEventListener('click', () => {
+
     let taskPrompt = prompt('Digite a tarefa');
-    let task = document.createElement('p');
+    
+    let task = document.createElement('span');
+    task.classList.add('badge', 'rounded-pill', 'bg-primary');
     task.innerText = taskPrompt;
     box[index].append(task);
+
   });
+
 }

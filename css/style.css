@@ -3,91 +3,50 @@
   padding: 0;
 }
 
-.header {
+body {
+  background-color: #A8CDDA;
+}
+
+nav {
   background-color: #354863;
+}
+
+nav a, #navbarNav ul li a {
   color: #FFF;
-  height: 80px;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-.title {
-  margin-left: 50px;
-}
-
-.links {
-  display: flex;
-}
-
-.header .links .links-list {
-  display: flex;
-  list-style: none;
-}
-
-.links-list {
-  margin-right: 50px;
-}
-
-.link-li {
+  font-size: larger;
   margin-right: 20px;
 }
 
-.link-li a {
-  color: #FFF;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-.main {
-  background-color: #A8CDDA;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.row-week-days, .row-morning, .row-evening, .row-night {
-  display: flex;
-}
-
-.row-week-days .box {
+.week-days .col {
   background-color: #ECA0A8;
   border-radius: 5px;
-  color: #FFF;
-  flex-direction: row;
-  height: 20px;
-  margin: 20px 20px;
-  padding: 10px;
+  margin: 10px 10px;
+  padding: 10px 10px;
   text-align: center;
-  width: 180px;
 }
 
-.row-morning .box, .row-evening .box, .row-night .box {
-  background-color: #FEE6AF;
+.morning .box, .evening .box, .night .box {
   border-radius: 5px;
   cursor: pointer;
-  flex-direction: row;
-  height: 194px;
-  margin: 20px 20px;
-  padding: 10px;
-  width: 180px;
+  height: 200px;
+}
+
+.box {
+  background-color: #FEE6AF;
+  margin: 10px 10px;
+  height: 20px;
 }
 
 .footer {
   background-color: #354863;
   bottom: 0;
-  color: #FFF;
-  display: flex;
-  height: 60px;
-  justify-content: center;
+  height: 50px;
   position: fixed;
+  text-align: center;
   width: 100%;
 }
 
 .footer p {
-  align-self: center;
-  font-size: 20px;
+  color: #FFF;
+  margin: 10px 0;
 }
