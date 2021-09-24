@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #354863;
+  color: #FFF;
+  height: 80px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-left: 50px;
+}
+
+.links {
+  display: flex;
+}
+
+.header .links .links-list {
+  display: flex;
+  list-style: none;
+}
+
+.links-list {
+  margin-right: 50px;
+}
+
+.link-li {
+  margin-right: 20px;
+}
+
+.link-li a {
+  color: #FFF;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.main {
+  background-color: #A8CDDA;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.row-week-days, .row-morning, .row-evening, .row-night {
+  display: flex;
+}
+
+.row-week-days .box {
+  background-color: #ECA0A8;
+  border-radius: 5px;
+  flex-direction: row;
+  height: 80px;
+  margin: 20px 20px;
+  width: 200px;
+}
+
+.row-morning .box, .row-evening .box, .row-night .box {
+  background-color: #FEE6AF;
+  border-radius: 5px;
+  flex-direction: row;
+  height: 200px;
+  margin: 20px 20px;
+  width: 200px;
+}
+
+.footer {
+  background-color: #354863;
+  bottom: 0;
+  color: #FFF;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+}
+
+.footer p {
+  align-self: center;
+  font-size: 20px;
+}
