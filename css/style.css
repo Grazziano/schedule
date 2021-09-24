@@ -56,19 +56,24 @@
 .row-week-days .box {
   background-color: #ECA0A8;
   border-radius: 5px;
+  color: #FFF;
   flex-direction: row;
-  height: 80px;
+  height: 20px;
   margin: 20px 20px;
-  width: 200px;
+  padding: 10px;
+  text-align: center;
+  width: 180px;
 }
 
 .row-morning .box, .row-evening .box, .row-night .box {
   background-color: #FEE6AF;
   border-radius: 5px;
+  cursor: pointer;
   flex-direction: row;
-  height: 200px;
+  height: 194px;
   margin: 20px 20px;
-  width: 200px;
+  padding: 10px;
+  width: 180px;
 }
 
 .footer {
